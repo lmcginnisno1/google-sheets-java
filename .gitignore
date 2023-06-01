@@ -39,3 +39,4 @@ bin/
 ### Mac OS ###
 /src/main/java/credentials.json
 /gradle/wrapper/gradle-wrapper.jar
+/src/main/resources/credentials.json
