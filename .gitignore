@@ -1,7 +1,7 @@
 .gradle
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+!org/src/main/**/build/
+!org/src/test/**/build/
 
 ### IntelliJ IDEA ###
 /.idea/
@@ -11,8 +11,8 @@ build/
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!org/src/main/**/out/
+!org/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -23,8 +23,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!org/src/main/**/bin/
+!org/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -37,6 +37,11 @@ bin/
 .vscode/
 
 ### Mac OS ###
-/src/main/java/credentials.json
+/org/src/main/java/credentials.json
 /gradle/wrapper/gradle-wrapper.jar
+/org/src/main/resources/X-TBA-Auth-Key.txt
 /src/main/resources/credentials.json
+/tokens/
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
